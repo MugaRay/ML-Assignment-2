@@ -1,0 +1,11 @@
+
+
+"""
+# Visualizing the data using a scatter plot of the first two features
+plt.figure(figsize=(10, 6))
+plt.scatter(X[:, 0], X[:, 1], c=y, cmap=plt.cm.Paired, s=100)
+plt.xlabel(X.feature_names[0])
+plt.ylabel(X.feature_names[1])
+
+plt.show()
+"""
